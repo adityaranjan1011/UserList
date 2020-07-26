@@ -1,0 +1,59 @@
+/*
+ * UsersList css File
+*/
+
+.UsersList {    
+    background-color: orangered;
+    height: 100vh;
+}
+
+.users-btn{
+ padding: 40px !important;
+ display: flex;
+ justify-content: center;
+}
+
+.btn{    
+    margin-left:40px !important;
+    background-color: #ffffff;
+}
+.btns{
+    margin-right: 40px !important;
+    background-color: #ffffff;
+}
+.modalbox{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 40%;
+    box-shadow: 2px 2px 2px grey;
+    background-color: seashell;    
+}
+h2{
+    text-align: center;
+}
+.view_btn
+{
+    float: right ;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.viewbox{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 30%;
+    left: 40%;
+    box-shadow: 2px 2px 2px grey;
+    background-color: seashell;    
+    overflow-y: scroll;
+    overflow-x: hidden ;
+}
+.activity_period{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    /* height: 300px; */
+}
